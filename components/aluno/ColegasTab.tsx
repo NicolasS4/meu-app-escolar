@@ -275,7 +275,7 @@ export default function ColegasTab({ alunoId, turmaId }: ColegasTabProps) {
                 <div className="relative z-20 w-full flex flex-col items-center">
                   <PetFoguinho 
                     streak={foundClassmate.streak_atual || 0} 
-                    acessorio={foundClassmate.skin_equipada} 
+                    acessorioEquipado={foundClassmate.skin_equipada}
                     expressao={foundClassmate.expressao_pet || "feliz"} 
                     pose={foundClassmate.pose_bracos || "padrao"} 
                   />
